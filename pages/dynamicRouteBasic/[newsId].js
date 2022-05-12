@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-function DetailPage() {
+function DetailPage(props) {
     const router = useRouter();
 
     console.log(router.query.newsId);
